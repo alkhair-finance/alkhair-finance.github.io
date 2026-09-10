@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alkhair-finance.github.io/sitemap.xml
