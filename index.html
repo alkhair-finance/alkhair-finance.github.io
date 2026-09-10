@@ -22,7 +22,7 @@
     <meta property="og:title" content="Alkhair Finance | Halal Loans Without Interest">
     <meta property="og:description"
         content="Sharia-compliant financing solutions. Get loans without interest. ₹10,000 to ₹1 Crore halal financing for all needs.">
-    <meta property="og:image" content="https://alkhair-finance.github.io/alkhair-logo.jpg">
+    <meta property="og:image" content="https://alkhair-finance.github.io/alkhair-logo.webp">
     <meta property="og:site_name" content="Alkhair Finance">
     <meta property="og:locale" content="en_IN">
 
@@ -32,27 +32,27 @@
     <meta name="twitter:title" content="Alkhair Finance | Halal Loans Without Interest">
     <meta name="twitter:description"
         content="Sharia-compliant financing solutions. Get loans without interest. ₹10,000 to ₹1 Crore halal financing.">
-    <meta name="twitter:image" content="https://alkhair-finance.github.io/alkhair-logo.jpg">
+    <meta name="twitter:image" content="https://alkhair-finance.github.io/alkhair-logo.webp">
 
     <!-- Apple Touch Icon -->
-    <link rel="apple-touch-icon" href="alkhair-logo.jpg">
+    <link rel="apple-touch-icon" href="alkhair-logo.webp">
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 
-    <!-- Fonts -->
+    <!-- Fonts (Ab ye page ko block nahi karega) -->
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Amiri:wght@400;700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" media="print" onload="this.media='all'">
     <noscript>
         <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Amiri:wght@400;700&display=swap"
             rel="stylesheet">
     </noscript>
 
-    <!-- Font Awesome deferred -->
+    <!-- Font Awesome deferred (Ye pehle se sahi hai, ise touch na karein) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         media="print" onload="this.media='all'" crossorigin="anonymous">
     <noscript>
@@ -384,10 +384,6 @@
     <noscript>
         <link rel="stylesheet" href="style.css">
     </noscript>
-
-    <!-- Google Site Verification -->
-    <meta name="google-site-verification" content="-NhQjXnv_481T2PdLidK2qseTk3wp17VTeWGJ8zN9uQ">
-
     <!-- Structured Data: FinancialService -->
     <script type="application/ld+json">
     {
@@ -396,8 +392,8 @@
         "name":"Alkhair Finance",
         "description":"Sharia-compliant interest-free Islamic financing in India. Halal loans from ₹10,000 to ₹1 Crore.",
         "url":"https://alkhair-finance.github.io/",
-        "logo":"https://alkhair-finance.github.io/alkhair-logo.jpg",
-        "image":"https://alkhair-finance.github.io/alkhair-logo.jpg",
+        "logo":"https://alkhair-finance.github.io/alkhair-logo.webp",
+        "image":"https://alkhair-finance.github.io/alkhair-logo.webp",
         "telephone":"+917485019664",
         "email":"sharia@alkhairfinance.com",
         "priceRange":"₹10,000 - ₹1,00,00,000",
@@ -436,6 +432,14 @@
         ]
     }
     </script>
+    <noscript>
+        <style>
+            [data-animate] {
+                opacity: 1 !important;
+                transform: none !important;
+            }
+        </style>
+    </noscript>
 </head>
 
 <body>
@@ -443,7 +447,7 @@
     <header id="header" role="banner">
         <div class="container header-container">
             <a href="#" class="logo-container" aria-label="Alkhair Finance Home">
-                <img src="alkhair-logo.jpg" alt="Alkhair Finance Logo" class="logo-img" width="60" height="60"
+                <img src="alkhair-logo.webp" alt="Alkhair Finance Logo" class="logo-img" width="60" height="60"
                     loading="eager" decoding="async">
                 <div class="logo-text">
                     <span class="logo-main">Al-khair Finance</span>
@@ -660,7 +664,7 @@
                     <p>Start your Sharia-compliant financing journey</p>
                 </div>
                 <div class="form-container">
-                    <form id="loanForm" method="POST" novalidate>
+                    <form id="loanForm">
                         <div class="form-row">
                             <div class="form-group"><label for="name">Full Name *</label><input type="text" id="name"
                                     name="name" class="form-control" required autocomplete="name"
