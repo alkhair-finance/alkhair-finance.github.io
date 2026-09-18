@@ -1,4 +1,4 @@
-/* Non-critical CSS */
+
 :root {
     --primary: #0A5C36;
     --accent: #2E7D32;
@@ -55,8 +55,6 @@ section[id] {
     max-width: 600px;
     margin: 15px auto 0
 }
-
-/* Video */
 .video-section {
     padding: 60px 20px;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -178,8 +176,6 @@ section[id] {
     color: var(--accent);
     border: 2px solid var(--accent)
 }
-
-/* Principles */
 .principles {
     background: var(--light)
 }
@@ -223,8 +219,6 @@ section[id] {
     margin-bottom: 15px;
     color: var(--dark)
 }
-
-/* Loans */
 .loans {
     background: var(--light-gray)
 }
@@ -381,8 +375,6 @@ section[id] {
     padding: 8px 15px;
     border-radius: 20px
 }
-
-/* Form */
 .form-section {
     background: var(--light-gray)
 }
@@ -504,8 +496,6 @@ label {
     font-size: 3rem;
     margin-bottom: 1rem
 }
-
-/* Process */
 .process {
     background: var(--light)
 }
@@ -538,8 +528,6 @@ label {
     margin: 0 auto 25px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .1)
 }
-
-/* FAQ */
 .faq-section {
     background: var(--light-gray)
 }
@@ -596,8 +584,6 @@ label {
     color: var(--gray);
     line-height: 1.7
 }
-
-/* Gallery */
 .gallery-section {
     background: var(--light)
 }
@@ -634,7 +620,6 @@ label {
     transform: scale(1.05)
 }
 
-/* Contact */
 .contact-section {
     background: var(--light-gray)
 }
@@ -689,7 +674,6 @@ label {
     margin-top: 5px
 }
 
-/* Footer */
 footer {
     background: var(--dark);
     padding: 70px 0 30px;
@@ -778,7 +762,6 @@ footer {
     font-size: .9rem
 }
 
-/* Floating Buttons */
 .floating-buttons {
     position: fixed;
     bottom: 30px;
@@ -831,7 +814,6 @@ footer {
     transform: scale(1.1) translateY(-5px)
 }
 
-/* Animations */
 [data-animate] {
     opacity: 0;
     transition: opacity .8s ease
@@ -841,7 +823,6 @@ footer {
     opacity: 1
 }
 
-/* Responsive */
 @media(max-width:1024px) {
     .process-steps {
         flex-direction: column;
